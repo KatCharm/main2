@@ -1,0 +1,30 @@
+/* Сховати звичайний контент спочатку */
+.hidden {
+    display: none;
+}
+
+/* Стилі для контейнера відео */
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Стилі для відео */
+#intro-video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Стилі для звичайного контенту */
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Фон звичайного контенту */
+}
